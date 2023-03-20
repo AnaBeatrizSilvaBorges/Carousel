@@ -2,14 +2,15 @@
 import { useState, useEffect, useRef} from 'react'
 import './App.css';
 import { motion } from 'framer-motion'
-import image1 from './images/1.jpg'
-import image2 from './images/metal.jpg'
-import image3 from './images/plastico.jpg'
-import image4 from './images/vidro.jpg'
-import image5 from './images/organico.jpg'
-import image6 from './images/eletronico.jpg'
+import image1 from '../src/images/explicação.png'
+import image2 from '../src/images/papel.png'
+import image3 from '../src/images/metal.png'
+import image4 from '../src/images/plastico.png'
+import image5 from '../src/images/vidro.png'
+import image6 from '../src/images/eletronico.png'
+import image7 from '../src/images/organico.png'
 
-const images = [image1, image2, image3, image4, image5, image6]
+const images = [image1, image2, image3, image4, image5, image6, image7]
 console.log(image1);
 
 
